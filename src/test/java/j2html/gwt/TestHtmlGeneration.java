@@ -6,7 +6,7 @@ import junit.framework.Assert;
 import static j2html.TagCreator.*;
 import static junit.framework.Assert.*;
 
-public class GwtTestHtmlGeneration extends CustomGwtTestCase {
+public class TestHtmlGeneration extends CustomGwtTestCase {
     private static final String CONTROL_HTML = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><title>Sample page</title></head><body><p><div>This is a sample page</div></p></body></html>";
 
     public String getModuleName() {
